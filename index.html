@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Barros - Diseñador Web Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="pink-glow"></div>
+    
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <span class="logo-text">AB</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">Sobre mí</a>
+                <a href="#education" class="nav-link">Educación</a>
+                <a href="#experience" class="nav-link">Experiencia</a>
+                <a href="#skills" class="nav-link">Conocimientos</a>
+            </div>
+            <div class="nav-actions">
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/alan-barros-arrieta" target="_blank" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
+                <button class="btn btn-primary" onclick="openContactModal()">Contacto</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="name">Alan Barros</span>
+                    <span class="position">Diseñador Gráfico</span>
+                    <span class="focus">Enfocado en Prototipos Web</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Transformando ideas en experiencias digitales cautivadoras a través del diseño web 
+                    innovador y desarrollo de prototipos.
+                </p>
+                
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-large" onclick="window.location.href='portfolio.html'">
+                        <span>Ver Portafolio</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="section-header">
+                    <h2 class="section-title">Sobre Mí</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://i.pinimg.com/736x/7d/83/5b/7d835b7b115693d9c96eaf4c736f6c9e.jpg" alt="Alan Barros">
+                    </div>
+                    <div class="about-text">
+                        <p>Soy Diseñador Gráfico, con experiencia en el diseño, rediseño y optimización de sitios web orientados a mejorar la experiencia y usabilidad del usuario. Domino herramientas profesionales como Adobe Creative Suite, Figma, WordPress, Elementor Pro, HTML y CSS, lo que me permite desarrollar soluciones digitales eficientes, atractivas y alineadas con los objetivos. Me distingo por ser una persona organizada, proactiva y orientada a resultados, Mi objetivo es seguir fortaleciendo mi experiencia en el ámbito digital, aportando valor estratégico y creativo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <div class="education-container">
+                <h2 class="section-title">Educación</h2>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                            <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/>
+                        </svg>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Diseño gráfico</h3>
+                        <p class="education-school">Universidad Autónoma del Caribe</p>
+                        <span class="education-year">2019</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <div class="experience-container">
+                <h2 class="section-title">Experiencia</h2>
+                
+                <div class="experience-timeline">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3 class="experience-role">User Interface Designer</h3>
+                            <span class="experience-company">Power Group Solutions</span>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="experience-date">jun. 2024 - actualidad</span>
+                            <span class="experience-location">Florida, Estados Unidos · En remoto</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3 class="experience-role">User Interface Designer <span class="badge-practice">Prácticas</span></h3>
+                            <span class="experience-company">Power Group Solutions</span>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="experience-date">Mar. 2023 - Sept. 2023 · 7 Meses</span>
+                            <span class="experience-location">Florida, Estados Unidos · En remoto</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="skills-container">
+                <h2 class="section-title">Conocimientos</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="skill-icon figma"></i>
+                        <span class="skill-name">Figma</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="skill-icon xd"></i>
+                        <span class="skill-name">Adobe XD</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="skill-icon wordpress"></i>
+                        <span class="skill-name">WordPress</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="skill-icon illustrator"></i>
+                        <span class="skill-name">Adobe Illustrator</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="skill-icon html"></i>
+                        <span class="skill-name">HTML</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="skill-icon css"></i>
+                        <span class="skill-name">CSS</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="skill-icon java"></i>
+                        <span class="skill-name">JAVA</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="skill-icon canva"></i>
+                        <span class="skill-name">Canva</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="skill-icon elementor"></i>
+                        <span class="skill-name">Elementor Pro</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="floating-elements">
+        <div class="floating-element" data-speed="0.5"></div>
+        <div class="floating-element" data-speed="0.3"></div>
+        <div class="floating-element" data-speed="0.7"></div>
+    </div>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeContactModal()">&times;</span>
+            <h2>Contacto</h2>
+            <div class="email-container">
+                <input type="text" id="emailInput" value="barros.arrieta1@gmail.com" readonly>
+                <button onclick="copyEmail()" class="btn btn-primary">
+                    <span id="copyText">Copiar</span>
+                    <svg id="copyIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
